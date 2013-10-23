@@ -1,3 +1,5 @@
+# This program is grabbing weather information from a webstie, and transfering F into C
+
 import urllib2
 import re
 
