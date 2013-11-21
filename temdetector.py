@@ -23,10 +23,13 @@ def getVoteLists(html):
     for item in matchlistmin:
     	mintem.append((int(item)-32)*5/9)
     
+    print 'The highest temperature for next few days are:'
     print maxtem
+    print 'The lowest temperature for next few days are:'
     print mintem
     
 def main():
+    print '\nCentigrade = (Fahrenheit-32)*5/9\n'
     print 'loading...'
     html = getUrlRespHtml()
     getVoteLists(html)
